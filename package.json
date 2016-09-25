@@ -1,0 +1,25 @@
+{
+  "name": "raumzeitgefuege",
+  "version": "0.0.1",
+  "description": "basic single page website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nichtdiebohne/raumzeitgefuege.git"
+  },
+  "keywords": [
+    "web",
+    "gulp",
+    "responsive",
+    "design"
+  ],
+  "author": "nichtdiebohne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichtdiebohne/raumzeitgefuege/issues"
+  },
+  "homepage": "https://github.com/nichtdiebohne/raumzeitgefuege#readme"
+}
