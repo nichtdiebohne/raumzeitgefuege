@@ -1,10 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>im Aufbau...</title>
+  <meta charset="UTF-8">
+  <title>PostCSS Layouts</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<h1>im Aufbau</h1>
+
+<header id="home" class="header">
+  <nav class="nav" role="navigation">
+    <div class="container nav-elements">
+          <div class="logo">
+        <a href="#home"><img src="images/njhlogo.svg" alt="Logo - njh.formfactor"></a>
+      	</div><!-- logo -->
+      <ul class="navbar">
+        <li><a href="#njh.formfactor>njh.formfactor</a></li>
+        <li><a href="#Kontakt">Kontakt</a></li>
+        <li><a href="#Datenschutz">Datenschutz</a></li>
+      </ul><!-- navbar -->
+    </div><!-- container nav-elements -->
+  </nav>
+
+  <div class="container tagline">
+    <h1 class="headline">Ich mache schöne Dinge.</h1>
+    <p> Lassen Sie mich</p>
+    <p> Einfach.</p>
+  </div><!-- container tagline -->
+</header><!-- #home -->
+
+<section id="Kontakt" class="section">
+   <h2 class="headline">Kontakt</h2>
+	<h3>Angaben gemäß § 5 TMG:</h3>
+	<p>Nils J. Hesse<br />
+		njh.formfactor<br />
+		Cherisystrasse 14<br />
+		78467 Konstanz
+	</p>
+	<h3>Kontakt:</h3>
+	<table id="contactdata"><tr>
+		<td>Telefon:</td>
+		<td>07531 2820259</td></tr>
+		<tr><td>Telefax:</td>
+		<td>+49753154492</td></tr>
+		<tr><td>E-Mail:</td>
+		<td>njh@raumzeitgefüge.de</td>
+		</tr>
+	</table>
+	<h3>Umsatzsteuer-ID:</h3>
+	<p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
+	DE 238556118</p>
+</section><!-- Kontakt -->
+
+<footer class="footer">
+  <header class="imageheader"></header>
+  <div class="container">
+  <nav class="nav" role="navigation">
+    <div class="container nav-elements">
+      <div class="branding">
+        <a href="#home"><img src="images/hpluslogo.svg" alt="Logo - H Plus Sports"></a>
+        <p class="address">100 Main Street<br>
+        Seattle, WA 98144
+      </p>
+      </div>
+      <ul class="navbar">
+        <li><a href="#home">home</a></li>
+        <li><a href="#Kontakt">Kontakt</a></li>
+        <li><a href="#Datenschutz">Datenschutz</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p class="legal">
+  <h1>Kontakt</h1>
+<h2>Angaben gemäß § 5 TMG:</h2>
+<p>Nils J. Hesse<br />
+njh.formfactor<br />
+Cherisystrasse 14<br />
+78467 Konstanz
+</p>
+<h2>Kontakt:</h2>
+<table><tr>
+<td>Telefon:</td>
+<td>07531 2820259</td></tr>
+<tr><td>Telefax:</td>
+<td>+49753154492</td></tr>
+<tr><td>E-Mail:</td>
+<td>njh@raumzeitgefüge.de</td>
+</tr></table>
+<h2>Umsatzsteuer-ID:</h2>
+<p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
+DE 238556118</p>
+  	
+</div><!-- container -->
+</footer><!-- footer -->
+
 </body>
 </html>
